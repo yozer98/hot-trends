@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>热点聚合榜 - 抖音 / 快手 / 小红书</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: #f5f7fb;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 24px 28px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(15, 23, 42, 0.12);
+        }
+        h1 {
+            margin-top: 0;
+            font-size: 24px;
+            color: #111827;
+        }
+        .meta {
+            color: #6b7280;
+            font-size: 13px;
+            margin-bottom: 16px;
+        }
+        .tab-bar {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .tab-btn {
+            padding: 10px 20px;
+            font-size: 15px;
+            font-weight: 500;
+            color: #6b7280;
+            background: none;
+            border: none;
+            border-bottom: 3px solid transparent;
+            cursor: pointer;
+            margin-bottom: -1px;
+        }
+        .tab-btn:hover {
+            color: #111827;
+        }
+        .tab-btn.active {
+            color: #2563eb;
+            border-bottom-color: #2563eb;
+        }
+        .tab-panel {
+            display: none;
+        }
+        .tab-panel.tab-panel-active {
+            display: block;
+        }
+        .platform-meta {
+            color: #6b7280;
+            font-size: 12px;
+            margin: 0 0 12px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        thead {
+            background: #f3f4f6;
+        }
+        th, td {
+            padding: 10px 8px;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        th {
+            color: #374151;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        tbody tr:hover {
+            background: #f9fafb;
+        }
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>热点聚合榜</h1>
+        <div class="meta">
+            最近更新：2026-03-17 16:13:48 · 共 118 条
+        </div>
+        <div class="tab-bar"><button class="tab-btn active" data-tab="0" type="button">抖音热榜</button><button class="tab-btn" data-tab="1" type="button">快手热榜</button><button class="tab-btn" data-tab="2" type="button">小红书热榜</button></div>
+        
+        <section class="tab-panel tab-panel-active" id="panel-0" data-tab="0">
+            <p class="platform-meta">共 49 条 · 按热度排序</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>标题</th>
+                        <th>热度值</th>
+                        <th>发布时间</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td><a href="https://www.douyin.com/hot/2433478" target="_blank">中国女足今晚对阵澳大利亚女足</a></td><td>1200.3万</td><td>2026-03-17</td></tr><tr><td>2</td><td><a href="https://www.douyin.com/hot/2433215" target="_blank">漫说年初中国经济亮点</a></td><td>1097.5万</td><td>2026-03-17</td></tr><tr><td>3</td><td><a href="https://www.douyin.com/hot/2433010" target="_blank">理性看待油菜花打“药”纷争</a></td><td>1096.3万</td><td>2026-03-17</td></tr><tr><td>4</td><td><a href="https://www.douyin.com/hot/2432198" target="_blank">解读自然资源部“38号文”</a></td><td>1029.8万</td><td>2026-03-17</td></tr><tr><td>5</td><td><a href="https://www.douyin.com/hot/2433277" target="_blank">詹姆斯隔扣小贾</a></td><td>916.8万</td><td>2026-03-17</td></tr><tr><td>6</td><td><a href="https://www.douyin.com/hot/2433374" target="_blank">洛克王国世界抢注ID</a></td><td>916.0万</td><td>2026-03-17</td></tr><tr><td>7</td><td><a href="https://www.douyin.com/hot/2433157" target="_blank">伊朗发射带有特定字样导弹系谣言</a></td><td>913.0万</td><td>2026-03-17</td></tr><tr><td>8</td><td><a href="https://www.douyin.com/hot/2433600" target="_blank">国际油价显著下跌</a></td><td>912.6万</td><td>2026-03-17</td></tr><tr><td>9</td><td><a href="https://www.douyin.com/hot/2433549" target="_blank">湖人100:92战胜火箭</a></td><td>911.9万</td><td>2026-03-17</td></tr><tr><td>10</td><td><a href="https://www.douyin.com/hot/2432978" target="_blank">中美就一些议题取得初步共识</a></td><td>906.8万</td><td>2026-03-17</td></tr><tr><td>11</td><td><a href="https://www.douyin.com/hot/2433118" target="_blank">突然想起20年前追逐梦想的自己</a></td><td>782.5万</td><td>2026-03-17</td></tr><tr><td>12</td><td><a href="https://www.douyin.com/hot/2433280" target="_blank">谢征长公主互相吐槽的青梅竹马</a></td><td>777.1万</td><td>2026-03-17</td></tr><tr><td>13</td><td><a href="https://www.douyin.com/hot/2433086" target="_blank">春天我和你拼了</a></td><td>775.1万</td><td>2026-03-17</td></tr><tr><td>14</td><td><a href="https://www.douyin.com/hot/2433666" target="_blank">杀猪小队暴揍随元青</a></td><td>773.8万</td><td>2026-03-17</td></tr><tr><td>15</td><td><a href="https://www.douyin.com/hot/2433608" target="_blank">她的盛焰母女恨海情天</a></td><td>773.5万</td><td>2026-03-17</td></tr><tr><td>16</td><td><a href="https://www.douyin.com/hot/2433706" target="_blank">小巷人家官宣第二部</a></td><td>773.1万</td><td>2026-03-17</td></tr><tr><td>17</td><td><a href="https://www.douyin.com/hot/2433459" target="_blank">我也会收到Hello Kitty粉花花对吗</a></td><td>772.7万</td><td>2026-03-17</td></tr><tr><td>18</td><td><a href="https://www.douyin.com/hot/2433298" target="_blank">美国驻伊拉克大使馆遭袭起火</a></td><td>772.4万</td><td>2026-03-17</td></tr><tr><td>19</td><td><a href="https://www.douyin.com/hot/2432966" target="_blank">魏建军回应于东来见面邀请</a></td><td>772.1万</td><td>2026-03-17</td></tr><tr><td>20</td><td><a href="https://www.douyin.com/hot/2432933" target="_blank">孔雪儿邓凯把杀青手势舞放出来了</a></td><td>772.0万</td><td>2026-03-17</td></tr><tr><td>21</td><td><a href="https://www.douyin.com/hot/2433661" target="_blank">花弓箭精准射中我心巴</a></td><td>771.2万</td><td>2026-03-17</td></tr><tr><td>22</td><td><a href="https://www.douyin.com/hot/2432868" target="_blank">逐玉崔千金自白看哭了</a></td><td>771.1万</td><td>2026-03-17</td></tr><tr><td>23</td><td><a href="https://www.douyin.com/hot/2432816" target="_blank">陈浚铭就这样闯进我的心里面</a></td><td>770.9万</td><td>2026-03-17</td></tr><tr><td>24</td><td><a href="https://www.douyin.com/hot/2433526" target="_blank">海来阿木回应送大自然梗</a></td><td>770.1万</td><td>2026-03-17</td></tr><tr><td>25</td><td><a href="https://www.douyin.com/hot/2432485" target="_blank">我吹一半风吹一半</a></td><td>770.0万</td><td>2026-03-17</td></tr><tr><td>26</td><td><a href="https://www.douyin.com/hot/2433477" target="_blank">周也好潮的穿搭</a></td><td>769.6万</td><td>2026-03-17</td></tr><tr><td>27</td><td><a href="https://www.douyin.com/hot/2433417" target="_blank">你好1983开播</a></td><td>769.6万</td><td>2026-03-17</td></tr><tr><td>28</td><td><a href="https://www.douyin.com/hot/2433117" target="_blank">美丽的神话翻唱</a></td><td>769.6万</td><td>2026-03-17</td></tr><tr><td>29</td><td><a href="https://www.douyin.com/hot/2433079" target="_blank">逐玉长公主什么时候原谅山长</a></td><td>769.2万</td><td>2026-03-17</td></tr><tr><td>30</td><td><a href="https://www.douyin.com/hot/2432544" target="_blank">瞿颖为何能再次翻红</a></td><td>767.7万</td><td>2026-03-17</td></tr><tr><td>31</td><td><a href="https://www.douyin.com/hot/2432422" target="_blank">用胡子大叔特效记录日常</a></td><td>767.6万</td><td>2026-03-17</td></tr><tr><td>32</td><td><a href="https://www.douyin.com/hot/2433466" target="_blank">用方便面写难念的经</a></td><td>767.3万</td><td>2026-03-17</td></tr><tr><td>33</td><td><a href="https://www.douyin.com/hot/2433479" target="_blank">闫妮新剧四婚前夜竟立遗嘱</a></td><td>766.6万</td><td>2026-03-17</td></tr><tr><td>34</td><td><a href="https://www.douyin.com/hot/2433018" target="_blank">蒜苗韭菜狗也太萌了</a></td><td>766.6万</td><td>2026-03-17</td></tr><tr><td>35</td><td><a href="https://www.douyin.com/hot/2432154" target="_blank">努力健身捡谢征</a></td><td>766.5万</td><td>2026-03-17</td></tr><tr><td>36</td><td><a href="https://www.douyin.com/hot/2433449" target="_blank">佘诗曼新剧判案又稳又刚</a></td><td>766.4万</td><td>2026-03-17</td></tr><tr><td>37</td><td><a href="https://www.douyin.com/hot/2433116" target="_blank">家长会上的匿名心里话</a></td><td>766.3万</td><td>2026-03-17</td></tr><tr><td>38</td><td><a href="https://www.douyin.com/hot/2433642" target="_blank">怦然心动20岁冬季官宣定档</a></td><td>766.0万</td><td>2026-03-17</td></tr><tr><td>39</td><td><a href="https://www.douyin.com/hot/2432782" target="_blank">NPC心动春日季挑战</a></td><td>765.9万</td><td>2026-03-17</td></tr><tr><td>40</td><td><a href="https://www.douyin.com/hot/2433437" target="_blank">总要来一次新疆自驾游吧</a></td><td>765.5万</td><td>2026-03-17</td></tr><tr><td>41</td><td><a href="https://www.douyin.com/hot/2432516" target="_blank">有一种春天叫油菜花开</a></td><td>765.3万</td><td>2026-03-17</td></tr><tr><td>42</td><td><a href="https://www.douyin.com/hot/2432425" target="_blank">谁家萌宝还没个绝活了</a></td><td>765.2万</td><td>2026-03-17</td></tr><tr><td>43</td><td><a href="https://www.douyin.com/hot/2432779" target="_blank">看完她的盛焰就repo</a></td><td>765.0万</td><td>2026-03-17</td></tr><tr><td>44</td><td><a href="https://www.douyin.com/hot/2433406" target="_blank">昊天撞车魔王羽</a></td><td>764.4万</td><td>2026-03-17</td></tr><tr><td>45</td><td><a href="https://www.douyin.com/hot/2432247" target="_blank">被河狸变身计划脑洞笑到了</a></td><td>763.8万</td><td>2026-03-17</td></tr><tr><td>46</td><td><a href="https://www.douyin.com/hot/2432236" target="_blank">正义女神开播</a></td><td>763.7万</td><td>2026-03-17</td></tr><tr><td>47</td><td><a href="https://www.douyin.com/hot/2432193" target="_blank">我同时上传了两张照片</a></td><td>763.5万</td><td>2026-03-17</td></tr><tr><td>48</td><td><a href="https://www.douyin.com/hot/2432665" target="_blank">三角洲颗秒操作大赏</a></td><td>763.0万</td><td>2026-03-17</td></tr><tr><td>49</td><td><a href="https://www.douyin.com/hot/2432159" target="_blank">十二星座拼豆偏心版</a></td><td>762.9万</td><td>2026-03-17</td></tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="tab-panel" id="panel-1" data-tab="1">
+            <p class="platform-meta">共 49 条 · 按热度排序</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>标题</th>
+                        <th>热度值</th>
+                        <th>发布时间</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td><a href="https://www.kuaishou.com/short-video/3xey393d7akwbs2?streamSource=hotrank&trendingId=军装一穿就长大了&area=homexxunknown" target="_blank">军装一穿就长大了</a></td><td>1328.7万</td><td>2026-03-17</td></tr><tr><td>2</td><td><a href="https://www.kuaishou.com/short-video/3xzgsu8hznesjvw?streamSource=hotrank&trendingId=美福特号航母火灾30小时&area=homexxunknown" target="_blank">美福特号航母火灾30小时</a></td><td>1257.6万</td><td>2026-03-17</td></tr><tr><td>3</td><td><a href="https://www.kuaishou.com/short-video/3xhqywidhypziw6?streamSource=hotrank&trendingId=漫说年初中国经济亮点&area=homexxunknown" target="_blank">漫说年初中国经济亮点</a></td><td>1231.4万</td><td>2026-03-17</td></tr><tr><td>4</td><td><a href="https://www.kuaishou.com/short-video/3xktv657ftd4b36?streamSource=hotrank&trendingId=外交部回应特朗普推迟访华&area=homexxunknown" target="_blank">外交部回应特朗普推迟访华</a></td><td>1205.2万</td><td>2026-03-17</td></tr><tr><td>5</td><td><a href="https://www.kuaishou.com/short-video/3xjvuwrmbzdm8z4?streamSource=hotrank&trendingId=中国女篮vs巴西女篮&area=homexxunknown" target="_blank">中国女篮vs巴西女篮</a></td><td>1183.2万</td><td>2026-03-17</td></tr><tr><td>6</td><td><a href="https://www.kuaishou.com/short-video/3xtcewjhjjzum9q?streamSource=hotrank&trendingId=他安慰着妈妈自己却悄悄红了眼&area=homexxunknown" target="_blank">他安慰着妈妈自己却悄悄红了眼</a></td><td>1121.0万</td><td>2026-03-17</td></tr><tr><td>7</td><td><a href="https://www.kuaishou.com/short-video/3xb9giw9e2mkkec?streamSource=hotrank&trendingId=官方披露辽阳致22死餐馆火灾原因&area=homexxunknown" target="_blank">官方披露辽阳致22死餐馆火灾原因</a></td><td>1099.5万</td><td>2026-03-17</td></tr><tr><td>8</td><td><a href="https://www.kuaishou.com/short-video/3xdnzf2kcwqc43u?streamSource=hotrank&trendingId=男子30万购假茅台被查&area=homexxunknown" target="_blank">男子30万购假茅台被查</a></td><td>1078.0万</td><td>2026-03-17</td></tr><tr><td>9</td><td><a href="https://www.kuaishou.com/short-video/3xvf7bifexkjh9q?streamSource=hotrank&trendingId=向兵哥哥致敬后收到对方视角照片&area=homexxunknown" target="_blank">向兵哥哥致敬后收到对方视角照片</a></td><td>1057.3万</td><td>2026-03-17</td></tr><tr><td>10</td><td><a href="https://www.kuaishou.com/short-video/3xqryrdypupm65m?streamSource=hotrank&trendingId=专家回应超强厄尔尼诺将致最热年&area=homexxunknown" target="_blank">专家回应超强厄尔尼诺将致最热年</a></td><td>1055.9万</td><td>2026-03-17</td></tr><tr><td>11</td><td><a href="https://www.kuaishou.com/short-video/3xa2neigqerc5h6?streamSource=hotrank&trendingId=樊长玉拥抱谢征袒露真情&area=homexxunknown" target="_blank">樊长玉拥抱谢征袒露真情</a></td><td>1054.5万</td><td>2026-03-17</td></tr><tr><td>12</td><td><a href="https://www.kuaishou.com/short-video/3xv2zjzcqd9cibm?streamSource=hotrank&trendingId=江西新兵光荣入伍&area=homexxunknown" target="_blank">江西新兵光荣入伍</a></td><td>1047.8万</td><td>2026-03-17</td></tr><tr><td>13</td><td><a href="https://www.kuaishou.com/short-video/3x9jnyq8azz3ecw?streamSource=hotrank&trendingId=刚好遇见你翻唱&area=homexxunknown" target="_blank">刚好遇见你翻唱</a></td><td>1039.3万</td><td>2026-03-17</td></tr><tr><td>14</td><td><a href="https://www.kuaishou.com/short-video/3xwgfyy6heefvdg?streamSource=hotrank&trendingId=爸爸买彩票中748万不告诉孩子&area=homexxunknown" target="_blank">爸爸买彩票中748万不告诉孩子</a></td><td>1035.1万</td><td>2026-03-17</td></tr><tr><td>15</td><td><a href="https://www.kuaishou.com/short-video/3x666avxtb836tw?streamSource=hotrank&trendingId=美军200多名士兵在中东7国受伤&area=homexxunknown" target="_blank">美军200多名士兵在中东7国受伤</a></td><td>1032.9万</td><td>2026-03-17</td></tr><tr><td>16</td><td><a href="https://www.kuaishou.com/short-video/3xezkxxhtxeahrs?streamSource=hotrank&trendingId=谢五晚上被自己前途亮得睡不着吧&area=homexxunknown" target="_blank">谢五晚上被自己前途亮得睡不着吧</a></td><td>1030.8万</td><td>2026-03-17</td></tr><tr><td>17</td><td><a href="https://www.kuaishou.com/short-video/3xa25wq2q5rp3bk?streamSource=hotrank&trendingId=胖东来追责10名博主&area=homexxunknown" target="_blank">胖东来追责10名博主</a></td><td>1022.9万</td><td>2026-03-17</td></tr><tr><td>18</td><td><a href="https://www.kuaishou.com/short-video/3x2anfpf7n97cv6?streamSource=hotrank&trendingId=中国公民泰缅边境跳车脱险&area=homexxunknown" target="_blank">中国公民泰缅边境跳车脱险</a></td><td>1018.9万</td><td>2026-03-17</td></tr><tr><td>19</td><td><a href="https://www.kuaishou.com/short-video/3xhwye3depuzrhe?streamSource=hotrank&trendingId=这个年纪翻唱&area=homexxunknown" target="_blank">这个年纪翻唱</a></td><td>1014.9万</td><td>2026-03-17</td></tr><tr><td>20</td><td><a href="https://www.kuaishou.com/short-video/3xgbcmbv2z8b6pe?streamSource=hotrank&trendingId=英托儿所男子性侵5幼儿&area=homexxunknown" target="_blank">英托儿所男子性侵5幼儿</a></td><td>1001.0万</td><td>2026-03-17</td></tr><tr><td>21</td><td><a href="https://www.kuaishou.com/short-video/3xux7jcg8zqqzf4?streamSource=hotrank&trendingId=老凤祥黄金连跌5天&area=homexxunknown" target="_blank">老凤祥黄金连跌5天</a></td><td>994.0万</td><td>2026-03-17</td></tr><tr><td>22</td><td><a href="https://www.kuaishou.com/short-video/3x3czyaf4rbhric?streamSource=hotrank&trendingId=伊朗战术策略已准备多年&area=homexxunknown" target="_blank">伊朗战术策略已准备多年</a></td><td>990.5万</td><td>2026-03-17</td></tr><tr><td>23</td><td><a href="https://www.kuaishou.com/short-video/3x3bugybuxhgpbw?streamSource=hotrank&trendingId=草莓采摘的季节到啦&area=homexxunknown" target="_blank">草莓采摘的季节到啦</a></td><td>988.7万</td><td>2026-03-17</td></tr><tr><td>24</td><td><a href="https://www.kuaishou.com/short-video/3x7a7uvn2n8ibjw?streamSource=hotrank&trendingId=解药翻唱&area=homexxunknown" target="_blank">解药翻唱</a></td><td>987.9万</td><td>2026-03-17</td></tr><tr><td>25</td><td><a href="https://www.kuaishou.com/short-video/3xk58vu8zepu28w?streamSource=hotrank&trendingId=走着走着就散了翻唱&area=homexxunknown" target="_blank">走着走着就散了翻唱</a></td><td>987.4万</td><td>2026-03-17</td></tr><tr><td>26</td><td><a href="https://www.kuaishou.com/short-video/3xjw9mj35a6mdr9?streamSource=hotrank&trendingId=你好1983开播&area=homexxunknown" target="_blank">你好1983开播</a></td><td>987.2万</td><td>2026-03-17</td></tr><tr><td>27</td><td><a href="https://www.kuaishou.com/short-video/3xsbq7kzp449kuk?streamSource=hotrank&trendingId=鹿哈公司否认卖3000万单问题毛肚&area=homexxunknown" target="_blank">鹿哈公司否认卖3000万单问题毛肚</a></td><td>987.1万</td><td>2026-03-17</td></tr><tr><td>28</td><td><a href="https://www.kuaishou.com/short-video/3xbbnr28atk2zim?streamSource=hotrank&trendingId=湖北省委原书记蒋超良被提起公诉&area=homexxunknown" target="_blank">湖北省委原书记蒋超良被提起公诉</a></td><td>987.0万</td><td>2026-03-17</td></tr><tr><td>29</td><td><a href="https://www.kuaishou.com/short-video/3xjga7w58f7q55i?streamSource=hotrank&trendingId=那一夜翻唱&area=homexxunknown" target="_blank">那一夜翻唱</a></td><td>987.0万</td><td>2026-03-17</td></tr><tr><td>30</td><td><a href="https://www.kuaishou.com/short-video/3xh8ix9xaymh8xq?streamSource=hotrank&trendingId=美国驻伊拉克使馆再遭袭&area=homexxunknown" target="_blank">美国驻伊拉克使馆再遭袭</a></td><td>983.3万</td><td>2026-03-17</td></tr><tr><td>31</td><td><a href="https://www.kuaishou.com/short-video/3x9cg2g6w55rdyg?streamSource=hotrank&trendingId=电诈保安队长国内落网&area=homexxunknown" target="_blank">电诈保安队长国内落网</a></td><td>981.5万</td><td>2026-03-17</td></tr><tr><td>32</td><td><a href="https://www.kuaishou.com/short-video/3xtjxsmgmqxiudk?streamSource=hotrank&trendingId=赛道之上维斯塔潘不负热爱&area=homexxunknown" target="_blank">赛道之上维斯塔潘不负热爱</a></td><td>979.7万</td><td>2026-03-17</td></tr><tr><td>33</td><td><a href="https://www.kuaishou.com/short-video/3x2tvuu9gb9zsgw?streamSource=hotrank&trendingId=湖人vs火箭&area=homexxunknown" target="_blank">湖人vs火箭</a></td><td>974.9万</td><td>2026-03-17</td></tr><tr><td>34</td><td><a href="https://www.kuaishou.com/short-video/3xcfbrtnsaybuuk?streamSource=hotrank&trendingId=白狐翻唱&area=homexxunknown" target="_blank">白狐翻唱</a></td><td>972.2万</td><td>2026-03-17</td></tr><tr><td>35</td><td><a href="https://www.kuaishou.com/short-video/3xwthvbcgb9rgc6?streamSource=hotrank&trendingId=杰伦格林暴力隔扣&area=homexxunknown" target="_blank">杰伦格林暴力隔扣</a></td><td>969.6万</td><td>2026-03-17</td></tr><tr><td>36</td><td><a href="https://www.kuaishou.com/short-video/3xvpppvzn24nx6a?streamSource=hotrank&trendingId=农发行1200亿助力春耕&area=homexxunknown" target="_blank">农发行1200亿助力春耕</a></td><td>966.8万</td><td>2026-03-17</td></tr><tr><td>37</td><td><a href="https://www.kuaishou.com/short-video/3x97yjyf8xjn2pg?streamSource=hotrank&trendingId=等我当兵回来给你一个家&area=homexxunknown" target="_blank">等我当兵回来给你一个家</a></td><td>963.8万</td><td>2026-03-17</td></tr><tr><td>38</td><td><a href="https://www.kuaishou.com/short-video/3x8sqi2knjuq854?streamSource=hotrank&trendingId=安东内利顶着最萌的脸开最快的车&area=homexxunknown" target="_blank">安东内利顶着最萌的脸开最快的车</a></td><td>960.9万</td><td>2026-03-17</td></tr><tr><td>39</td><td><a href="https://www.kuaishou.com/short-video/3x72ug6n2ckymbu?streamSource=hotrank&trendingId=反家暴法十周年维权&area=homexxunknown" target="_blank">反家暴法十周年维权</a></td><td>958.2万</td><td>2026-03-17</td></tr><tr><td>40</td><td><a href="https://www.kuaishou.com/short-video/3xhaucfei4s5h8w?streamSource=hotrank&trendingId=中国女足vs澳大利亚女足&area=homexxunknown" target="_blank">中国女足vs澳大利亚女足</a></td><td>955.7万</td><td>2026-03-17</td></tr><tr><td>41</td><td><a href="https://www.kuaishou.com/short-video/3xjcmbbd9rtqs7i?streamSource=hotrank&trendingId=中国赴黎维和部队清排未爆弹&area=homexxunknown" target="_blank">中国赴黎维和部队清排未爆弹</a></td><td>954.7万</td><td>2026-03-17</td></tr><tr><td>42</td><td><a href="https://www.kuaishou.com/short-video/3x32h3u7khvvg3s?streamSource=hotrank&trendingId=比比拉布宠物版&area=homexxunknown" target="_blank">比比拉布宠物版</a></td><td>953.9万</td><td>2026-03-17</td></tr><tr><td>43</td><td><a href="https://www.kuaishou.com/short-video/3x9qq8dhwp9ve7k?streamSource=hotrank&trendingId=杨超越巴黎vlog&area=homexxunknown" target="_blank">杨超越巴黎vlog</a></td><td>953.1万</td><td>2026-03-17</td></tr><tr><td>44</td><td><a href="https://www.kuaishou.com/short-video/3xmb9tudrjkzjvq?streamSource=hotrank&trendingId=杀猪小队挨个扇随元青&area=homexxunknown" target="_blank">杀猪小队挨个扇随元青</a></td><td>952.2万</td><td>2026-03-17</td></tr><tr><td>45</td><td><a href="https://www.kuaishou.com/short-video/3xvrh88g7f8ympg?streamSource=hotrank&trendingId=里弗斯造杜兰特一级恶犯&area=homexxunknown" target="_blank">里弗斯造杜兰特一级恶犯</a></td><td>951.6万</td><td>2026-03-17</td></tr><tr><td>46</td><td><a href="https://www.kuaishou.com/short-video/3xeb8smjpkjsxae?streamSource=hotrank&trendingId=315晚会观后感&area=homexxunknown" target="_blank">315晚会观后感</a></td><td>950.5万</td><td>2026-03-17</td></tr><tr><td>47</td><td><a href="https://www.kuaishou.com/short-video/3xdfxj9wypnygmq?streamSource=hotrank&trendingId=当爱在靠近翻唱&area=homexxunknown" target="_blank">当爱在靠近翻唱</a></td><td>950.0万</td><td>2026-03-17</td></tr><tr><td>48</td><td><a href="https://www.kuaishou.com/short-video/3xvket8m3qet579?streamSource=hotrank&trendingId=日不落翻唱&area=homexxunknown" target="_blank">日不落翻唱</a></td><td>949.5万</td><td>2026-03-17</td></tr><tr><td>49</td><td><a href="https://www.kuaishou.com/short-video/3x7quwbutpbw86w?streamSource=hotrank&trendingId=总书记点赞的幸福和声&area=homexxunknown" target="_blank">总书记点赞的幸福和声</a></td><td>0</td><td>2026-03-17</td></tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="tab-panel" id="panel-2" data-tab="2">
+            <p class="platform-meta">共 20 条 · 按热度排序</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>标题</th>
+                        <th>热度值</th>
+                        <th>发布时间</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td><a href="https://www.xiaohongshu.com/search_result?keyword=用万能旅行拍照姿势美美出片&source=web_search_result_notes" target="_blank">用万能旅行拍照姿势美美出片</a></td><td>937.1万</td><td>2026-03-17</td></tr><tr><td>2</td><td><a href="https://www.xiaohongshu.com/search_result?keyword=耗时三年拍下古诗词里的中国&source=web_search_result_notes" target="_blank">耗时三年拍下古诗词里的中国</a></td><td>925.2万</td><td>2026-03-17</td></tr><tr><td>3</td><td><a href="https://www.xiaohongshu.com/search_result?keyword=我拍到了海鸥雨&source=web_search_result_notes" target="_blank">我拍到了海鸥雨</a></td><td>915.4万</td><td>2026-03-17</td></tr><tr><td>4</td><td><a href="https://www.xiaohongshu.com/search_result?keyword=超日常美食教程速来get&source=web_search_result_notes" target="_blank">超日常美食教程速来get</a></td><td>885.9万</td><td>2026-03-17</td></tr><tr><td>5</td><td><a href="https://www.xiaohongshu.com/search_result?keyword=定格这一刻的日照金山&source=web_search_result_notes" target="_blank">定格这一刻的日照金山</a></td><td>874.4万</td><td>2026-03-17</td></tr><tr><td>6</td><td><a href="https://www.xiaohongshu.com/search_result?keyword=你可以永远相信赛里木湖的美景&source=web_search_result_notes" target="_blank">你可以永远相信赛里木湖的美景</a></td><td>860.5万</td><td>2026-03-17</td></tr><tr><td>7</td><td><a href="https://www.xiaohongshu.com/search_result?keyword=拼豆上也可以作画了&source=web_search_result_notes" target="_blank">拼豆上也可以作画了</a></td><td>846.1万</td><td>2026-03-17</td></tr><tr><td>8</td><td><a href="https://www.xiaohongshu.com/search_result?keyword=我的家庭旅行更像是打副本&source=web_search_result_notes" target="_blank">我的家庭旅行更像是打副本</a></td><td>821.6万</td><td>2026-03-17</td></tr><tr><td>9</td><td><a href="https://www.xiaohongshu.com/search_result?keyword=原来古诗词里的河南真的存在&source=web_search_result_notes" target="_blank">原来古诗词里的河南真的存在</a></td><td>810.1万</td><td>2026-03-17</td></tr><tr><td>10</td><td><a href="https://www.xiaohongshu.com/search_result?keyword=蒸出了奶香爆米花馒头&source=web_search_result_notes" target="_blank">蒸出了奶香爆米花馒头</a></td><td>800.1万</td><td>2026-03-17</td></tr><tr><td>11</td><td><a href="https://www.xiaohongshu.com/search_result?keyword=这可能是江西最被低估的一座山&source=web_search_result_notes" target="_blank">这可能是江西最被低估的一座山</a></td><td>785.7万</td><td>2026-03-17</td></tr><tr><td>12</td><td><a href="https://www.xiaohongshu.com/search_result?keyword=海边日落赴一场温柔约会&source=web_search_result_notes" target="_blank">海边日落赴一场温柔约会</a></td><td>774.8万</td><td>2026-03-17</td></tr><tr><td>13</td><td><a href="https://www.xiaohongshu.com/search_result?keyword=拼豆也能当火漆印章玩&source=web_search_result_notes" target="_blank">拼豆也能当火漆印章玩</a></td><td>761.3万</td><td>2026-03-17</td></tr><tr><td>14</td><td><a href="https://www.xiaohongshu.com/search_result?keyword=我创造了新型遛狗法&source=web_search_result_notes" target="_blank">我创造了新型遛狗法</a></td><td>747.6万</td><td>2026-03-17</td></tr><tr><td>15</td><td><a href="https://www.xiaohongshu.com/search_result?keyword=用镜头捕捉四季如画&source=web_search_result_notes" target="_blank">用镜头捕捉四季如画</a></td><td>736.8万</td><td>2026-03-17</td></tr><tr><td>16</td><td><a href="https://www.xiaohongshu.com/search_result?keyword=笔墨重现课本诗意&source=web_search_result_notes" target="_blank">笔墨重现课本诗意</a></td><td>724.5万</td><td>2026-03-17</td></tr><tr><td>17</td><td><a href="https://www.xiaohongshu.com/search_result?keyword=拍到了洱海的丁达尔效应&source=web_search_result_notes" target="_blank">拍到了洱海的丁达尔效应</a></td><td>712.9万</td><td>2026-03-17</td></tr><tr><td>18</td><td><a href="https://www.xiaohongshu.com/search_result?keyword=珠圆玉润妆完全是淡颜天菜&source=web_search_result_notes" target="_blank">珠圆玉润妆完全是淡颜天菜</a></td><td>701.4万</td><td>2026-03-17</td></tr><tr><td>19</td><td><a href="https://www.xiaohongshu.com/search_result?keyword=碎钻美甲指尖藏着细碎星光&source=web_search_result_notes" target="_blank">碎钻美甲指尖藏着细碎星光</a></td><td>671.4万</td><td>2026-03-17</td></tr><tr><td>20</td><td><a href="https://www.xiaohongshu.com/search_result?keyword=我来当旅行中的颜色猎手&source=web_search_result_notes" target="_blank">我来当旅行中的颜色猎手</a></td><td>654.0万</td><td>2026-03-17</td></tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <script>
+        document.querySelectorAll(".tab-btn").forEach(function(btn) {
+            btn.addEventListener("click", function() {
+                var t = this.getAttribute("data-tab");
+                document.querySelectorAll(".tab-btn").forEach(function(b) { b.classList.remove("active"); });
+                document.querySelectorAll(".tab-panel").forEach(function(p) { p.classList.remove("tab-panel-active"); });
+                this.classList.add("active");
+                var panel = document.getElementById("panel-" + t);
+                if (panel) panel.classList.add("tab-panel-active");
+            });
+        });
+    </script>
+</body>
+</html>
